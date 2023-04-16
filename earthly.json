@@ -1,0 +1,22 @@
+{
+    "version": "0.7.4",
+    "description": "Super simple CI/CD framework with repeatable builds that you write once and run anywhere - laptop, remote, or any CI",
+    "homepage": "https://earthly.dev/",
+    "license": "MPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/earthly/earthly/releases/download/v0.7.4/earthly-windows-amd64.exe",
+            "hash": "f6ded4d038e615681cdfe0fa03c7f431cbc07b1117728a1cf208259a4e9c9cf8"
+        }
+    },
+    "bin": [
+        "earthly-windows-amd64.exe",
+        [
+            "earthly-windows-amd64.exe",
+            "earthly"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/earthly/earthly"
+    }
+}
